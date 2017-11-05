@@ -470,6 +470,8 @@ Downlaod git and install it
 
 >> git add filename
 
+>>git add . (to add all files)
+
 >>git commit -m "intian commit"
 
 ----------------------------------------------------------------
@@ -521,3 +523,15 @@ ssh -t git@heroku.com
 
 CHANGE PORT NUMBER
 const port = process.env.PORT || 3000;
+
+UPDATED MODIFIED FILE TO GITHUB
+git add .
+
+FINALLY PUSH INTO GITUP
+git push
+
+CREATE YOUR APP IN HEROKU
+heroko create
+
+push into heroko
+git push heroku

@@ -11,9 +11,9 @@ app.use((req,res,next) => {
   next();
 });
 
-app.use((req,res,next) => {
-  res.render('maintennace.hbs')
-})
+// app.use((req,res,next) => {
+//   res.render('maintennace.hbs')
+// })
 hbs.registerPartials(__dirname + '/partials');
 
 hbs.registerHelper('getdate',() => {
